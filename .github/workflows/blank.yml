@@ -16,7 +16,11 @@ env:
 
 jobs:
   build:
-    
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
     # 프로젝트 압축
     - name: Make zip file
       run: zip -r ./practice-deploy.zip .
