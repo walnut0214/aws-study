@@ -1,1 +1,1 @@
-pkill flask
+echo "hi"
