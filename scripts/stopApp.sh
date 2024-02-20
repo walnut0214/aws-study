@@ -1,1 +1,1 @@
-ls -al
+pkill flask
