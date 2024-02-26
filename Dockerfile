@@ -1,5 +1,7 @@
 FROM python:3.9-alpine
 
+RUN apk --no-cache add curl
+
 RUN mkdir /code
 WORKDIR /code
 
